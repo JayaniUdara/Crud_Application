@@ -1,0 +1,24 @@
+/* App.css */
+.App nav {
+  background-color: #333;
+  padding: 1em;
+}
+
+.App nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.App nav ul li {
+  display: inline;
+}
+
+.App nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.App nav ul li a:hover {
+  text-decoration: underline;
+}
